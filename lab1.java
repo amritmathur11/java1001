@@ -9,18 +9,22 @@ public class lab1 {
 
     public static void main(String[] args) {
 
+        //geting name from user
 
        	Scanner sc= new Scanner(System.in);
        	System.out.println("Enter your name : ");
        	String name = sc.nextLine();
 
+        //getting grade from user
        	System.out.println("Enter your grade : ");
        	int grade = sc.nextInt();
 
+        //printing 
        	System.out.println("===============================");
        	System.out.println("you have entered : "+name+", Grade : "+grade);
         System.out.println("Result");
 
+        //print the grade
        	if(grade>=GRADE_A){
        		System.out.println("Grade : A");
        	}else if (grade>=GRADE_B){
